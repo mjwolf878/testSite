@@ -1,0 +1,57 @@
+html{
+  width:850px;
+  margin: 30px;
+}
+body{
+font-family: "acumin-pro", sans-serif;
+display: block;
+}
+
+
+
+
+/* ul{
+  list-style: none;
+  margin-top: 150px;
+  background-color: #fff;
+} */
+.main{
+padding-top: 30px;
+  background-color: #F0F8FF;
+}
+#myCarousel{
+  text-align: right;
+}
+
+#navbarSupportedContent, ul{
+  margin-top: 30px;
+  list-style: none;
+  background-color: #fff;
+}
+
+li, sidebar{
+  display: block;
+}
+
+li, social-media{
+    display: inline-block;
+    margin-left: 50px;
+    padding: 10px;
+
+}
+button{
+  text-align: center;
+  margin-left: 200px;
+  padding-top:7px;
+  background-color: #0fff;
+}
+.slide-show{
+  text-align: right;
+}
+.page-header ul li{
+  text-transform: uppercase;
+}
+.sidebar-content li{
+  position:relative;
+  display:block;
+}

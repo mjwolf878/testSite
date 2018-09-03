@@ -1,0 +1,76 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+
+@media screen and (min-width: 350px) and (max-width: 550px){
+
+#myCarousel{
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 100%;
+  margin-left: 0.5em;
+}
+
+}
+/*
+  ... }
+/*
+/* Medium devices (desktops, 992px and up) */
+/*
+@media (min-width: @screen-md-min) {
+
+
+  ... }
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: @screen-lg-min) {
+
+  ... }
+
+@media screen and (min-width: @screen-sm-min){
+    .container, .feature_img img { /* I probably have too much code here for stuff I deleted, but heck */
+/*      display: flex;
+      flex-wrap: wrap;
+    }
+    height: auto;
+    margin-left: 0.5em;
+  }
+.flex-container, .header_name{
+    text-align: right;
+    margin: auto;
+    font-size: 1em;
+    display: block;
+    }
+   .caption{
+    line-height: 1.2em;
+    font-size: 24px;
+  }
+.main img{
+    max-width: 100%;
+  }
+}
+@media screen and (min-width:551px) and (max-width: 750px){
+.main.img{
+    max-width:100%;
+  }
+  /* should probably delete but I used it at some point.
+.header_inner{
+  width: 100%
+}*/
+/*.feature_img{
+  max-width: 100%;
+  height: auto;
+}
+figcaption{
+  font-size: 24px;
+}
+} */
+
+@media screen and (min-width: 751px) and (max-width: 900px){
+  main, header, .container_img {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
